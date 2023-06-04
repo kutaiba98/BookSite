@@ -1,0 +1,240 @@
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+  background: white;
+  color: white;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+after { clear: both; }
+
+.login {
+  margin: 50px auto;
+  width: 320px;
+}
+
+.login form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+
+.login form span {
+  background-color: #363b41;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #606468;
+  display: block;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+.login form input[type="text"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+.login form input[type="email"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+.login form input[type="date"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+
+
+.login form input[type="password"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+.login form input[type="file"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+.login form input[type="number"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+
+#locality-dropdown {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+
+
+.login form input[type="submit"] {
+  background: #008B8B;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#login form input[type="submit"]:hover {
+  background: #16aa56;
+}
+.login  input[type="submit"] {
+  background: #b5cd60;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#login form input[type="submit"]:hover {
+  background: #16aa56;
+}
+#login_btn{
+  background: #008B8B;
+  width: 7vw;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+#rgstr_btn{
+  background: #008B8B;
+  width: 7vw;
+}
+
+
+
+.card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.icon-cog {
+  color: white;
+}
+
+.fa-cog {
+  color: white;
+}
+
+.btnm {
+  width: 35%;
+  padding: 5px 5px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ecf0f1;
+  border-radius: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  -moz-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.btnm:hover {
+  background-color: rgba(22, 160, 133, .7);
+}
+
+/* Here Is The CSS For The Background*/
+
+/* An Overlay To Dim The Image And Make Text Readable*/
+#color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #34495e, #2c3e50);
+  opacity: 0.7;
+  z-index: -1;
+}
+
+
+.with-bg-size {
+  background-image: url("https://i.guim.co.uk/img/media/77e3e93d6571da3a5d77f74be57e618d5d930430/0_0_2560_1536/master/2560.jpg?width=1900&quality=85&fit=max&s=bd07a00272bf2438d5e3a25374a44cfb");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  
+  
+  -webkit-animation: back 10s infinite; 
+  -moz-animation:    back 10s infinite; 
+  -o-animation:      back 10s infinite; 
+  animation:         back 10s infinite; 
+  
+  
+}
+/* The Keyframes*/
+@keyframes back {
+  25% {
+    background-image: url("https://img.jakpost.net/c/2019/03/02/2019_03_02_66706_1551461528._large.jpg");
+  }
+  50% {
+    background-image: url("https://img-cdn.inc.com/image/upload/images/panoramic/GettyImages-577674005_492115_zfpgiw.jpg");
+  }
+  
+  75%{
+    background-image: url("https://assets-global.website-files.com/6027ab9296f259fcd4b6d69b/61971533097b40302da9683d_life-changing-books.jpg");
+  }
+  
+
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"/> -->
+	<title>
+		shopping cart with javascript using local storage -- fullyworld web tutorials
+	</title>
+	<link rel="stylesheet" href="index.css"/>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="../books webstie/css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<script>
+		
+		
+	</script>
+</head>
+<body>
+	<header class="header">
+
+		<div class="header-1">
+	
+			<a href="./index.html" class="logo"> <i class="fas fa-book"></i> books By Omar Subh </a>
+	
+			<form action="" class="search-form">
+				<input type="search" name="" placeholder="search here..." id="search-box">
+				<label for="search-box" class="fas fa-search"></label>
+			</form>
+	
+			<div class="icons">
+				<div id="search-btn" class="fas fa-search"></div>
+				<a href="#" class="fas fa-heart"></a>
+				
+				<div id="login-btn" class="fas fa-user" onclick="goToLogin()"></div>
+			</div>
+	
+		</div>
+	
+		<div class="header-2">
+			<nav class="navbar">
+				<a href="../books webstie/index.html">home</a>
+				<a href="../books webstie/index.html">featured</a>
+				<a href="../books webstie/index.html">arrivals</a>
+				<a href="../books webstie/index.html">reviews</a>
+				<a href="../books webstie/index.html">blogs</a>
+			</nav>
+		</div>
+	
+	</header>
+	<div class="main">
+		<header id="header" class="header">
+			<h1>Shopping Cart</h1>
+			<div class="iconShopping">
+				<p>0</p>
+				<i class="fa fa-shopping-cart"></i>
+			</div>
+		</header><!-- /header -->
+		<div class="itemsBox">
+			<div class="item">
+				<img src="../books webstie/image/book-1.png" alt="Men's Solid Regular Fit T-Shirt"/>
+				<div class="itemInfo">
+					<h1>archetive and interior design</h1>
+					<p>₪<span>42.50</span></p>
+					<a href="#" title="add to cart" class="attToCart">Add to cart</a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="../books webstie/image/book-2.png"/>
+				<div class="itemInfo">
+					<h1>Every Thang Makes you happy</h1>
+					<p>₪<span>15.50</span></p>
+					<a href="#" title="add to cart" class="attToCart">Add to cart</a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="../books webstie/image/book-3.png"/>
+				<div class="itemInfo">
+					<h1>C# and Algoritmica</h1>
+					<p>₪<span>100.50</span></p>
+					<a href="#" title="add to cart" class="attToCart">Add to cart</a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="../books webstie/image/book-4.png"/>
+				<div class="itemInfo">
+					<h1>Full Stack</h1>
+					<p>₪<span>48.50</span></p>
+					<a href="#" title="add to cart" class="attToCart">Add to cart</a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="../books webstie/image/book-5.png"/>
+				<div class="itemInfo">
+					<h1>Music</h1>
+					<p>₪<span>78.50</span></p>
+					<a href="#" title="add to cart" class="attToCart">Add to cart</a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="../books webstie/image/book-6.png"/>
+				<div class="itemInfo">
+					<h1>React Native</h1>
+					<p>₪<span>55.50</span></p>
+					<a href="#" title="add to cart" class="attToCart">Add to cart</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cartBox">
+		<div class="cart">
+			<i class="fa fa-close"></i>
+			<h1>Cart</h1>
+			<table></table>
+		</div>
+	</div>
+
+
+	<!-- script -->
+	<script src="index.js"></script>
+</body>
+</html>
